@@ -131,8 +131,6 @@ class Converter:
 
     def issues_convert(self):
         for i in self.bytype['Issue'].values():
-            print()
-            print(i)
             self.issue_convert(i)
 
     def transactions_parse_action(self, i, a):
